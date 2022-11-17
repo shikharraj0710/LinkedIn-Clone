@@ -1,0 +1,97 @@
+.login {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+}
+
+.login > img {
+    object-fit: contain;
+    height: 70px;
+    margin: 20px 0;
+}
+
+.login > form {
+    display: flex;
+    flex-direction: column;   
+}
+
+.login >  form > input, .passInput {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.login > form > button {
+    width: 365px;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    background-color: #0074b1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login > form > button:hover,
+.login > form > button:focus-within {
+    background-color: #37aceb;
+}
+
+.login__options {
+    display: flex;
+    border: 2px solid #0074b1;
+    background-color: whitesmoke;
+    width: 90%;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 10px;
+  
+}
+
+.login__options > div {
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    padding: 10px 0;
+}
+
+.login__options > div:hover {
+    background-color: #0074b1;
+    transition: 0.2s ease-in-out;
+}
+
+.circular_progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.eye__style {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    scale: 1.1;
+}
+
+.eye__style:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.input__error {
+    color: red;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-bottom: 10px;
+}

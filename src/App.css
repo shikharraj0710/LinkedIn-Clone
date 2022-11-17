@@ -1,0 +1,26 @@
+.app__body {
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.app {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app__container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+
+.MuiAlert-standardSuccess {
+  background: lightseagreen!important;
+  color: white!important;
+}
+.MuiAlert-icon {
+  color: white!important;
+}
